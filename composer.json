@@ -1,0 +1,19 @@
+{
+    "name": "smpl/autoload",
+    "authors": [
+        {
+            "name": "Babanin D",
+            "email": "loki99928@yandex.ru"
+        }
+    ],
+    "require": {
+        "psy/psysh": "@stable",
+        "monolog/monolog": "^2.1",
+        "php-console/php-console": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "liw\\": ""
+        }
+    }
+}
